@@ -1,0 +1,8 @@
+[2026-04-17_16:47:03] =========================================
+[2026-04-17_16:47:03] --- Running cpu_monitor ---
+[2026-04-17_16:47:05] CPU monitoring completed - All metrics normal
+[2026-04-17_16:47:31] CPU monitoring completed - All metrics normal
+[2026-04-17_16:47:58] CPU Alert: 1m load critical: 11.13, Process count critical: 365
+[2026-04-17_16:48:50] CPU Alert: 1m load critical: 10.09, Process count critical: 364
+[2026-04-17_16:48:58] Memory monitoring completed - All metrics normal
+[2026-04-17_16:49:22] CPU Alert: 1m load critical: 9.85, Process count critical: 379

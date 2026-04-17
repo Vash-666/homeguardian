@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-17_16:47:58",
+  "module": "cpu_monitor",
+  "metrics": {
+    "cpu_usage_percent": 16.38,
+    "load_1m": 11.13,
+    "load_5m": 10.47,
+    "load_15m": 9.85,
+    "process_count": 365
+  },
+  "top_processes": " %CPU   PID USER             COMM;471.3 27242 rohitvashist     /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer); 39.0 76006 rohitvashist     /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper; 13.6   151 _windowserver    /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer; 13.0 47970 rohitvashist     openclaw-tui; 10.3 69734 rohitvashist     openclaw-gateway;",
+  "alert": {
+    "level": "CRITICAL",
+    "message": "1m load critical: 11.13, Process count critical: 365",
+    "details": "load_1m=11.13, process_count=365"
+  },
+  "thresholds": {
+    "warning": 80,
+    "critical": 95,
+    "load_warning_1m": 4.0,
+    "load_critical_1m": 8.0
+  }
+}

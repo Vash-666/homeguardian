@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-17_16:48:58",
+  "module": "memory_monitor",
+  "metrics": {
+    "memory_usage_percent": 99,
+    "memory_used_mb": 15784,
+    "memory_total_mb": 15836,
+    "memory_free_mb": 52,
+    "swap_usage_percent": 0,
+    "swap_used_mb": 5120.00,
+    "swap_total_mb": 3919.44,
+    "memory_pressure_percent": 54
+  },
+  "top_processes": "%MEM   PID USER             COMM;30.6 27242 rohitvashist     /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer); 1.2   392 rohitvashist     /Applications/Google Chrome.app/Contents/MacOS/Google Chrome; 0.9 53197 rohitvashist     /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer); 0.9 76002 rohitvashist     /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer); 0.8 57775 rohitvashist     /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer);",
+  "alert": {
+    "level": "INFO",
+    "message": "",
+    "details": ""
+  },
+  "thresholds": {
+    "warning": ,
+    "critical": ,
+    "swap_warning": ,
+    "swap_critical": ,
+    "memory_pressure_warning": ,
+    "memory_pressure_critical": 
+  }
+}

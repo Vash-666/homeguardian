@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-04-17T17:00:00-04:00",
+  "module": "cpu_monitor",
+  "alert_level": "CRITICAL",
+  "alert_message": "High CPU load detected",
+  "alert_details": "Load average: 9.85",
+  "system_state": "needs_repair",
+  "request_id": "req_test_cpu_001",
+  "priority": "high"
+}

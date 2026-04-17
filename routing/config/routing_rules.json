@@ -1,0 +1,37 @@
+{
+  "cpu_monitor": {
+    "CRITICAL": ["optimize_processes", "restart_services", "adjust_limits"],
+    "WARNING": ["optimize_processes", "adjust_limits"],
+    "INFO": ["log_issue"]
+  },
+  "memory_monitor": {
+    "CRITICAL": ["clear_cache", "restart_services", "kill_processes"],
+    "WARNING": ["clear_cache", "adjust_swappiness"],
+    "INFO": ["log_issue"]
+  },
+  "disk_monitor": {
+    "CRITICAL": ["cleanup_temp", "expand_disk", "archive_old"],
+    "WARNING": ["cleanup_temp", "archive_old"],
+    "INFO": ["log_issue"]
+  },
+  "service_monitor": {
+    "CRITICAL": ["restart_service", "rollback_update", "check_dependencies"],
+    "WARNING": ["restart_service", "check_dependencies"],
+    "INFO": ["log_issue"]
+  },
+  "log_monitor": {
+    "CRITICAL": ["rotate_logs", "cleanup_old", "compress_logs"],
+    "WARNING": ["rotate_logs", "compress_logs"],
+    "INFO": ["log_issue"]
+  },
+  "network_monitor": {
+    "CRITICAL": ["restart_network", "reset_connection", "flush_dns"],
+    "WARNING": ["restart_network", "flush_dns"],
+    "INFO": ["log_issue"]
+  },
+  "default_actions": {
+    "CRITICAL": ["diagnose_issue", "manual_intervention_needed"],
+    "WARNING": ["diagnose_issue"],
+    "INFO": ["log_issue"]
+  }
+}

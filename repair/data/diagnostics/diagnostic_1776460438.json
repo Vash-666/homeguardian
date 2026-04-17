@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-04-17T17:13:58-04:00",
+  "repair_request": {
+    "timestamp": "2026-04-17T17:00:00-04:00",
+    "module": "cpu_monitor",
+    "alert_level": "CRITICAL",
+    "alert_message": "High CPU load detected",
+    "alert_details": "Load average: 9.85",
+    "system_state": "needs_repair",
+    "request_id": "req_test_cpu_001",
+    "priority": "high"
+  },
+  "system_analysis": {
+    "cpu": {
+      "load_average": "",
+      "cpu_count": "",
+      "top_processes": ""
+    },
+    "memory": {
+      "total_mb": "",
+      "used_mb": "",
+      "free_mb": "",
+      "swap_used_mb": ""
+    },
+    "disk": {
+      "root_usage": "11%",
+      "home_usage": "0Bi",
+      "inodes_usage": "11%"
+    },
+    "processes": {
+      "total_processes": "     341",
+      "zombie_processes": "       0",
+      "defunct_processes": "       0"
+    },
+    "services": {
+      "failed_services": "       0",
+      "critical_services": "       0"
+    },
+    "network": {
+      "interfaces_up": "       0",
+      "default_gateway": ""
+    }
+  },
+  "safety_checks": {
+    "protected_processes_running": "unknown",
+    "resource_limits_ok": "unknown",
+    "system_stability": "stable"
+  },
+  "repair_recommendations": {
+    "recommended_action": "restart_top_processes",
+    "safety_level": "medium_risk",
+    "estimated_downtime": "2",
+    "rollback_required": "false"
+  }
+}
